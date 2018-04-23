@@ -1,0 +1,14 @@
+{
+  "name": "presence-notifier-bot",
+  "version": "1.0.0",
+  "description": "Simple bot to send message if you are on/off the workstation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "felipegc",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}

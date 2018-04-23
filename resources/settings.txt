@@ -1,0 +1,4 @@
+WEB_HOOK_URL = https://chat.googleapis.com/v1/spaces/AAAA9M36oxQ/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=Rm7egTjwScKTGxrz_UZwp_I29yHtdzyMjxIgzte-Z6Y%3D
+MSG_LOCK_SCREEN = I am on my
+MSG_UNLOCK_SCREEN = voltei pessoal
+SO_SCREEN_LOCKED_CMD = gdbus call -e -d com.canonical.Unity -o /com/canonical/Unity/Session -m com.canonical.Unity.Session.IsLocked
