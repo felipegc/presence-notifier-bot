@@ -43,9 +43,9 @@ var isScreenLocked = (cmd, callback) => {
         if (err) {
             console.log('The app could not execute the command to check if the screen is either locked or unlocked.');
         }
-        retorno = stdout.includes('true');
+        isLocked = stdout.includes('true');
 
-        callback(retorno);
+        callback(isLocked);
     });
 };
 
